@@ -34,7 +34,7 @@ go env -w GOPROXY=https://goproxy.cn,direct
 
 ### 1.1.3. 安装VSCODE
 
-从 https://code.visualstudio.com/ 下载`Visual Studio Code`。
+从 https://code.visualstudio.com/ 下载`Visual Studio Code`。[安装配置教程](https://blog.csdn.net/T1401026064/article/details/128692088?spm=1001.2014.3001.5501)
 
 安装完vscode之后，就可以打开本demo项目了，它会提示你安装一些`扩展和Golang的环境工具`，确认安装即可。
 
@@ -49,7 +49,7 @@ INFO[0000] started                                       id=demo listen=":8000" 
 
 ## 1.3. 测试
 
-打开两个websocket测试界面中，并分别输入：
+打开两个websocket测试界面中[coolaf](http://coolaf.com/tool/chattest)，并分别输入：
 
 ```html
 ws://localhost:8000?user=userA
