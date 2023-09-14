@@ -52,7 +52,7 @@ export let doLogin = async (url: string): Promise<{ status: string, conn: w3cweb
         }
         conn.onerror = (error: Error) => {
             clearTimeout(tr)
-            // console.debug(error)
+            console.debug(error)
             resolve({ status: Ack.Loginfailed, conn: conn });
         }
     })

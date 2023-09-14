@@ -38,7 +38,9 @@ go env -w GOPROXY=https://goproxy.cn,direct
 
 安装完vscode之后，就可以打开本demo项目了，它会提示你安装一些`扩展和Golang的环境工具`，确认安装即可。
 
-## 1.2. 启动服务
+## 1.2. 测试消息广播
+
+### 1.2.1. 服务启动
 
 > go run main.go chat
 
@@ -47,7 +49,7 @@ $ go run main.go chat
 INFO[0000] started                                       id=demo listen=":8000" module=Server
 ```
 
-## 1.3. 测试
+### 1.2.2. 测试
 
 打开两个websocket测试界面中[coolaf](http://coolaf.com/tool/chattest)，并分别输入：
 
@@ -57,6 +59,13 @@ ws://localhost:8000?user=userB
 ```
 
 之后就可以通过界面发送聊天消息了
+
+
+## 1.3. 测试客户端，拨号连接
+
+### 1.3.1. 服务启动
+
+
 
 ## 1.4. Java to Go
 
